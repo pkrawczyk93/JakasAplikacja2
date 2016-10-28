@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <ListBox x:Name="listBox2" />
+        <StackPanel>
+            <TextBlock x:Name="textBlock1" Text="Siemka" />
+            <ListBox x:Name="listBox2" />
+        </StackPanel>
     </Grid>
 </Window>

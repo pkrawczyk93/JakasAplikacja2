@@ -23,6 +23,7 @@ namespace JakasAplikacja2
         public MainWindow()
         {
             InitializeComponent();
+            textBlock1.Text = textBlock1.Text + ", co slychac?";
             for(int i = 0; i < 7; i++)
             {
                 listBox2.Items.Add("element nr " + i);
